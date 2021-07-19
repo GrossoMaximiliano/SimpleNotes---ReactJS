@@ -1,6 +1,7 @@
 ### `Simple Notes`
 Creado con ReactJS, utilizando LocalStorage como almacenamiento de las notas.
-CSS puro (Sin frameworks) y responsivo.
+
+La web es responsiva y sus estilos han sido desarrollados en CSS puro (sin frameworks)
 
 Pueden probar la web en: [https://grossomaximiliano.github.io/SimpleNotes_ReactJS_build/](https://grossomaximiliano.github.io/SimpleNotes_ReactJS_build/)
 
