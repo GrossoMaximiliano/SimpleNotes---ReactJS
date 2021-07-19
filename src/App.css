@@ -1,0 +1,271 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ECF0F1;
+  font-family: 'assistant';
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3498DB;
+  height: 15vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.03rem;
+}
+
+.nav h1 {
+  color: white;
+  margin-left: 2vw;
+  font-family: 'assistant';
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.nav button {
+  background-color: white !important;
+  font-size: 1.5rem;
+  margin-right: 2vw;
+  font-weight: 730;
+  color: #3498DB;
+  padding: 1vh 1vw;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
+}
+
+.nav button:hover {
+  -webkit-box-shadow: 0 0 0.5rem 0.03rem #444;
+          box-shadow: 0 0 0.5rem 0.03rem #444;
+}
+
+.nav button i {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-top: 7vh;
+}
+
+section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1vh 1vw;
+  min-height: 30vh;
+  height: 30vh;
+  width: 25vw;
+  background-color: #FFFFFF;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 0.2rem;
+  -webkit-box-shadow: 0 0 0.1rem 0.01rem #444;
+          box-shadow: 0 0 0.1rem 0.01rem #444;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
+  position: relative;
+  padding-bottom: 3vh;
+  -webkit-transition: 2s height;
+  transition: 2s height;
+  overflow: hidden;
+}
+
+section article .titulo {
+  position: absolute;
+  text-align: center;
+  width: 25vw;
+  height: 8vh;
+  background-color: #3498DB;
+  color: white;
+  font-family: 'assistant';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+section article .titulo h1 {
+  margin: 0.5vh;
+  overflow: hidden;
+}
+
+section article .descripcion {
+  margin-top: 10vh;
+  height: 13vh;
+  width: 90% !important;
+  padding: 0.5vh 1vw;
+  text-overflow: ellipsis;
+  
+  
+  word-wrap: break-word;
+}
+
+section article .btn1 {
+  position: absolute;
+  color: #ca1818;
+  left: 0;
+  bottom: 0;
+  margin: 1vh 1vw;
+  font-size: 1.7rem;
+  cursor: pointer;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+section article .btn1:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+section article .btn2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 1.7rem;
+  margin: 1vh 1vw;
+  cursor: pointer;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+section article .btn2:hover {
+  -webkit-transform: rotate(-90deg) rotateX(180deg);
+          transform: rotate(-90deg) rotateX(180deg);
+}
+
+section article:hover {
+  -webkit-box-shadow: 0 0 0.5rem 0.01rem #444;
+          box-shadow: 0 0 0.5rem 0.01rem #444;
+  overflow: visible;
+  height: auto;
+}
+
+section article:hover .descripcion {
+  height: auto;
+}
+
+.editor {
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.editor .container {
+  width: 50vw;
+  background-color: #FFFFFF;
+}
+
+.editor .container .input {
+  margin: 0;
+  padding: 0;
+  background-color: #3498DB;
+  width: 50vw;
+  height: 10vh;
+  position: relative;
+}
+
+.editor .container .input input {
+  width: 46.5vw;
+  height: 7vh;
+  margin: 1.4vh 0.5vw;
+  background-color: #2980B9 !important;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.editor .container .textarea {
+  padding: 3vh 1vw;
+}
+
+.editor .container .textarea textarea {
+  padding: 2vh 1vw;
+  background-color: #ECF0F1;
+  min-height: 35vh;
+  width: 45vw;
+  color: black;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.editor button {
+  margin-top: 2vh;
+  background-color: #3498DB !important;
+  font-size: 1.5rem;
+  font-weight: 730;
+  color: white;
+  padding: 1vh 1vw;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
+}
+
+.editor button:hover {
+  -webkit-box-shadow: 0 0 0.5rem 0.03rem #444;
+          box-shadow: 0 0 0.5rem 0.03rem #444;
+}
+
+.editor button:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.editor button i {
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    -webkit-transition: 2s all;
+    transition: 2s all;
+  }
+  section article {
+    width: 90vw !important;
+    height: auto;
+  }
+  section article .titulo {
+    width: 90vw !important;
+  }
+  section article .descripcion {
+    height: auto;
+    padding: 3vh !important;
+  }
+}
