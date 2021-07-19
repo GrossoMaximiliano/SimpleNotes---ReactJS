@@ -1,3 +1,12 @@
+### `Simple Notes`
+Creado y desarrollado en ReactJS, utilizando LocalStorage como almacenamiento de las notas.
+CSS puro (Sin frameworks) y responsivo.
+
+Pueden probar la web en: [https://grossomaximiliano.github.io/SimpleNotes_ReactJS_build/](https://grossomaximiliano.github.io/SimpleNotes_ReactJS_build/)
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/87657806/126204453-5ae7cb40-1ba1-4f6c-8dbc-ce1bf276759a.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
