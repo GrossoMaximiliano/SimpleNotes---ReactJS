@@ -1,5 +1,5 @@
 ### `Simple Notes`
-Creado y desarrollado en ReactJS, utilizando LocalStorage como almacenamiento de las notas.
+Creado con ReactJS, utilizando LocalStorage como almacenamiento de las notas.
 CSS puro (Sin frameworks) y responsivo.
 
 Pueden probar la web en: [https://grossomaximiliano.github.io/SimpleNotes_ReactJS_build/](https://grossomaximiliano.github.io/SimpleNotes_ReactJS_build/)
